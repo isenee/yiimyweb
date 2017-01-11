@@ -23,6 +23,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'c')->textInput() ?>
 
     <?= $form->field($model, 'birthday')->textInput() ?>
+    
 
     <?= $form->field($model, 'cid')->textInput(['maxlength' => true]) ?>
 
